@@ -10,7 +10,7 @@ const rate = () => {
 </script>
 <template>
   <div class="stats-card">
-    <div class="stats-item">
+    <div class="stat-item">
       <div class="number">{{todoStore.total}}</div>
       <div class="label">总任务</div>
     </div>

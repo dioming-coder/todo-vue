@@ -1,4 +1,4 @@
-<<template>
+<template>
   <div class="app">
     <nav class="nav">
       <router-link to="/" class="nav-link">首页</router-link>
