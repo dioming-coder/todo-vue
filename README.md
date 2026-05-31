@@ -1,42 +1,29 @@
-# vue-todolist
+# Vue3 任务管理系统
 
-This template should help get you started developing with Vue 3 in Vite.
+基于 Vue3 + Vue Router + Pinia 开发的待办事项管理应用。
 
-## Recommended IDE Setup
+**在线预览：** [https://dioming-coder.github.io/todo-vue/](https://dioming-coder.github.io/todo-vue/)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 技术栈
 
-## Recommended Browser Setup
+- Vue 3（Composition API + `&lt;script setup&gt;`）
+- Vue Router（单页面路由切换）
+- Pinia（全局状态管理）
+- Vite（构建工具）
+- GitHub Pages（静态部署）
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 功能特性
 
-## Type Support for `.vue` Imports in TS
+- ✅ 任务增删改查（CRUD）
+- ✅ 任务状态切换（完成/未完成）
+- ✅ 实时统计（总任务数、完成率、进度条）
+- ✅ 筛选过滤（全部/进行中/已完成）
+- ✅ 登录态模拟（JWT + localStorage）
+- ✅ 路由守卫（未登录自动跳转）
+- ✅ 数据持久化（localStorage 刷新不丢失）
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 本地运行
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
